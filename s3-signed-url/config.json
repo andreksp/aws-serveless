@@ -1,0 +1,5 @@
+{
+    "REGION": "sa-east-1",
+    "STAGE": "dev",
+    "S3_BUCKET": "aws-test-ui-bucket"
+  }

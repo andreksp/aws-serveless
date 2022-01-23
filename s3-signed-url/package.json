@@ -1,0 +1,25 @@
+{
+  "name": "awsserveless",
+  "version": "1.0.0",
+  "description": "Create pre-sign url from lambda function using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreksp/aws-serveless.git"
+  },
+  "author": "andre khenaifes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreksp/aws-serveless/issues"
+  },
+  "homepage": "https://github.com/andreksp/aws-serveless#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.48.0",
+    "@aws-sdk/s3-presigned-post": "^3.48.0",
+    "@aws-sdk/s3-request-presigner": "^3.48.0",
+    "aws-sdk": "^2.1062.0"
+  }
+}
